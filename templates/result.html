@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <video class="video-bg" autoplay loop muted>
+        <source src="{{ url_for('static', filename='bg.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="result-container">
+        <h1>Search Results</h1>
+        <div class="results">
+            {% if results %}
+            {% for result in results %}
+            <div class="result-item">
+                <h2>{{ result.title }}</h2>
+                <p><strong>Authors:</strong> {{ result.authors }}</p>
+                <p><strong>Abstract:</strong> {{ result.abstract }}</p>
+                <a href="{{ result.pdf_url }}" target="_blank">Read More</a>
+            </div>
+            {% endfor %}
+            {% else %}
+            <p>No results found. Please try again with a different query.</p>
+            {% endif %}
+        </div>
+        <a href="{{ url_for('index') }}" class="go-back-btn">Go Back</a>
+    </div>
+
+    <button id="chatbot-button" class="chatbot-toggle">Arx-bot</button>
+
+    <div class="chat-container" id="chat-container" style="display: none;">
+        <button id="close-chatbot" class="close-chatbot">X</button>
+        <h2>Chat with the Arx-bot</h2>
+        <div class="chat-output" id="chat-output"></div>
+        <input type="text" id="chat-input" placeholder="Ask Arx-bot anything..." required>
+        <button id="chat-send">Send</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <video class="video-bg" autoplay loop muted>
+        <source src="{{ url_for('static', filename='bg.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <h1>Search Arxiv Documents</h1>
+        <form action="/search" method="POST" id="search-form">
+            <input type="text" name="query" placeholder="Enter your query..." required>
+            <input type="number" name="num_results" placeholder="Enter number of documents (in digits)" min="1" max="50" required>
+            <button type="submit" id="search-button">Search</button>
+            <p id="loading-text" class="hidden">Loading results <span class="loader"></span></p>
+        </form>
+        {% if error %}
+        <p style="color: red;">{{ error }}</p>
+        {% endif %}
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
