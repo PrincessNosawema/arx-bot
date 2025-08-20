@@ -35,7 +35,7 @@ def format_html(response):
 def chat_bot(prompt):
     try:
         if not prompt:
-            return jsonify({'error': 'No prompt provided'}), 400
+            return jsonify({'error': 'No prompt provided.'}), 400
 
         print(f"User: {prompt}\n")
         
@@ -45,16 +45,16 @@ def chat_bot(prompt):
             return jsonify({"response": "Unable to read the file content."}), 500
 
         hidden_prompt = f"Analyze this text: {file_content}\n Answer the user's questions based on this. If the text does not define an answer for the user's question, generate an answer to the user's question by yourself."
-        combined_prompt = f"{hidden_prompt}\n\nUser's question: {prompt}.Answer short and concise."
+        combined_prompt = f"{hidden_prompt}\n\nUser's question: {prompt}. Answer precisely and concisely."
 
         response = chat.send_message(combined_prompt).text
         
         if not response:
-            return jsonify({"response": "Arx-bot is temporarily unavailable. Please try again"}), 500
+            return jsonify({"response": "Arx-bot is temporarily unavailable. Please try again."}), 500
 
         formatted_response = format_html(response)
         
-        print("Arx-bot's response fetched\n")
+        print("Arx-bot's response fetched.\n")
         
         return jsonify({"response": formatted_response}), 200
     
