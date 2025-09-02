@@ -1,0 +1,175 @@
+Document 1
+Title: Explaining Risks: Axiomatic Risk Attributions for Financial Models
+Authors: Dangxing Chen
+Abstract: In recent years, machine learning models have achieved great success at the
+expense of highly complex black-box structures. By using axiomatic attribution
+methods, we can fairly allocate the contributions of each feature, thus
+allowing us to interpret the model predictions. In high-risk sectors such as
+finance, risk is just as important as mean predictions. Throughout this work,
+we address the following risk attribution problem: how to fairly allocate the
+risk given a model with data? We demonstrate with analysis and empirical
+examples that risk can be well allocated by extending the Shapley value
+framework.
+
+Document 2
+Title: Choices or constraints: decoding financial empowerment among women entrepreneurs in France
+Authors: Jonathan Labbé, Typhaine Lebègue, Abdel Malik Ola
+Abstract: This research examines the empowerment of women entrepreneurs in the context
+of entrepreneurial financing in France. It explores the factors that allow some
+women entrepreneurs to access certain categories of external finance more
+easily. The theoretical framework used is based on the concept of empowerment,
+explored through its personal and relational dimensions. The study relies on a
+quantitative approach, using data from a representative of women entrepreneurs.
+The results show that the status of a founder affects access to external
+finance in different ways: it increases the chances of successful fundraising,
+but reduces the chances of obtaining bank finance. This finding highlights the
+importance of empowerment dynamics, which vary according to the type of
+financing. In addition, characteristics such as the presence of a spouse in the
+business, high income, membership of a professional network and the diversity
+of this network complete the analysis of inequalities in access. This study,
+the first of its kind in France, suggests ways of enriching our understanding
+of the diversity of situations experienced by female founders, thus helping to
+deconstruct the homogeneous image of women's entrepreneurship.
+
+Document 3
+Title: Text mining arXiv: a look through quantitative finance papers
+Authors: Michele Leonardo Bianchi
+Abstract: This paper explores articles hosted on the arXiv preprint server with the aim
+to uncover valuable insights hidden in this vast collection of research.
+Employing text mining techniques and through the application of natural
+language processing methods, we examine the contents of quantitative finance
+papers posted in arXiv from 1997 to 2022. We extract and analyze crucial
+information from the entire documents, including the references, to understand
+the topics trends over time and to find out the most cited researchers and
+journals on this domain. Additionally, we compare numerous algorithms to
+perform topic modeling, including state-of-the-art approaches.
+
+Document 4
+Title: The Evolution of Reinforcement Learning in Quantitative Finance: A Survey
+Authors: Nikolaos Pippas, Elliot A. Ludvig, Cagatay Turkay
+Abstract: Reinforcement Learning (RL) has experienced significant advancement over the
+past decade, prompting a growing interest in applications within finance. This
+survey critically evaluates 167 publications, exploring diverse RL applications
+and frameworks in finance. Financial markets, marked by their complexity,
+multi-agent nature, information asymmetry, and inherent randomness, serve as an
+intriguing test-bed for RL. Traditional finance offers certain solutions, and
+RL advances these with a more dynamic approach, incorporating machine learning
+methods, including transfer learning, meta-learning, and multi-agent solutions.
+This survey dissects key RL components through the lens of Quantitative
+Finance. We uncover emerging themes, propose areas for future research, and
+critique the strengths and weaknesses of existing methods.
+
+Document 5
+Title: Qlib: An AI-oriented Quantitative Investment Platform
+Authors: Xiao Yang, Weiqing Liu, Dong Zhou, Jiang Bian, Tie-Yan Liu
+Abstract: Quantitative investment aims to maximize the return and minimize the risk in
+a sequential trading period over a set of financial instruments. Recently,
+inspired by rapid development and great potential of AI technologies in
+generating remarkable innovation in quantitative investment, there has been
+increasing adoption of AI-driven workflow for quantitative research and
+practical investment. In the meantime of enriching the quantitative investment
+methodology, AI technologies have raised new challenges to the quantitative
+investment system. Particularly, the new learning paradigms for quantitative
+investment call for an infrastructure upgrade to accommodate the renovated
+workflow; moreover, the data-driven nature of AI technologies indeed indicates
+a requirement of the infrastructure with more powerful performance;
+additionally, there exist some unique challenges for applying AI technologies
+to solve different tasks in the financial scenarios. To address these
+challenges and bridge the gap between AI technologies and quantitative
+investment, we design and develop Qlib that aims to realize the potential,
+empower the research, and create the value of AI technologies in quantitative
+investment.
+
+Document 6
+Title: Quantum Computing for Financial Mathematics
+Authors: Antoine Jacquier, Oleksiy Kondratyev, Gordon Lee, Mugad Oumgari
+Abstract: Quantum computing has recently appeared in the headlines of many scientific
+and popular publications. In the context of quantitative finance, we provide
+here an overview of its potential.
+
+Document 7
+Title: The Quantitative Finance Aspects of Automated Market Markers in DeFi
+Authors: Stefan Loesch
+Abstract: Automated Market Makers (AMMs) are a class of smart contracts on Ethereum and
+other blockchains that "make markets" autonomously. In other words, AMMs stand
+ready to trade with other market participants that interact with them, at the
+conditions determined by the AMM. In this this paper, which relies on the
+existing and growing corpus of literature available, we review and present the
+key mathematical and quantitative finance aspects that underpin their
+operations, including the interesting relationship between AMMs and derivatives
+pricing and hedging.
+
+Document 8
+Title: FinRL-Podracer: High Performance and Scalable Deep Reinforcement Learning for Quantitative Finance
+Authors: Zechu Li, Xiao-Yang Liu, Jiahao Zheng, Zhaoran Wang, Anwar Walid, Jian Guo
+Abstract: Machine learning techniques are playing more and more important roles in
+finance market investment. However, finance quantitative modeling with
+conventional supervised learning approaches has a number of limitations. The
+development of deep reinforcement learning techniques is partially addressing
+these issues. Unfortunately, the steep learning curve and the difficulty in
+quick modeling and agile development are impeding finance researchers from
+using deep reinforcement learning in quantitative trading. In this paper, we
+propose an RLOps in finance paradigm and present a FinRL-Podracer framework to
+accelerate the development pipeline of deep reinforcement learning (DRL)-driven
+trading strategy and to improve both trading performance and training
+efficiency. FinRL-Podracer is a cloud solution that features high performance
+and high scalability and promises continuous training, continuous integration,
+and continuous delivery of DRL-driven trading strategies, facilitating a rapid
+transformation from algorithmic innovations into a profitable trading strategy.
+First, we propose a generational evolution mechanism with an ensemble strategy
+to improve the trading performance of a DRL agent, and schedule the training of
+a DRL algorithm onto a GPU cloud via multi-level mapping. Then, we carry out
+the training of DRL components with high-performance optimizations on GPUs.
+Finally, we evaluate the FinRL-Podracer framework for a stock trend prediction
+task on an NVIDIA DGX SuperPOD cloud. FinRL-Podracer outperforms three popular
+DRL libraries Ray RLlib, Stable Baseline 3 and FinRL, i.e., 12% \sim 35%
+improvements in annual return, 0.1 \sim 0.6 improvements in Sharpe ratio and 3
+times \sim 7 times speed-up in training time. We show the high scalability by
+training a trading agent in 10 minutes with $80$ A100 GPUs, on NASDAQ-100
+constituent stocks with minute-level data over 10 years.
+
+Document 9
+Title: A Quantum algorithm for linear PDEs arising in Finance
+Authors: Filipe Fontanela, Antoine Jacquier, Mugad Oumgari
+Abstract: We propose a hybrid quantum-classical algorithm, originated from quantum
+chemistry, to price European and Asian options in the Black-Scholes model. Our
+approach is based on the equivalence between the pricing partial differential
+equation and the Schrodinger equation in imaginary time. We devise a strategy
+to build a shallow quantum circuit approximation to this equation, only
+requiring few qubits. This constitutes a promising candidate for the
+application of Quantum Computing techniques (with large number of qubits
+affected by noise) in Quantitative Finance.
+
+Document 10
+Title: The theory of quantitative trading
+Authors: Andrea Berdondini
+Abstract: This book consists of a selection of articles divided into three main themes:
+Statistics, Quantitative Trading, Psychology. These three arguments are
+indispensable for the development of a quantitative trading system. The order
+of the articles was chosen so as to constitute a single logical reasoning that
+develops progressively.
+
+Document 11
+Title: Optimal hedging with variational preferences under convex risk measures
+Authors: Marcelo Righi
+Abstract: We expose a theoretical hedging optimization framework with variational
+preferences under convex risk measures. We explore a general dual
+representation for the composition between risk measures and utilities. We
+study the properties of the optimization problem as a convex and monotone map
+per se. We also derive results for optimality and indifference pricing
+conditions. We also explore particular examples inside our setup.
+
+Document 12
+Title: Deep Stochastic Optimization in Finance
+Authors: A. Max Reppen, H. Mete Soner, Valentin Tissot-Daguette
+Abstract: This paper outlines, and through stylized examples evaluates a novel and
+highly effective computational technique in quantitative finance. Empirical
+Risk Minimization (ERM) and neural networks are key to this approach. Powerful
+open source optimization libraries allow for efficient implementations of this
+algorithm making it viable in high-dimensional structures. The free-boundary
+problems related to American and Bermudan options showcase both the power and
+the potential difficulties that specific applications may face. The impact of
+the size of the training data is studied in a simplified Merton type problem.
+The classical option hedging problem exemplifies the need of market generators
+or large number of simulations.
+
