@@ -44,8 +44,8 @@ def chat_bot(prompt):
         if file_content is None:
             return jsonify({"response": "Unable to read the file content."}), 500
 
-        hidden_prompt = f"Analyze this text: {file_content}\n Answer the user's questions based on this. If the text does not define an answer for the user's question, generate an answer to the user's question by yourself."
-        combined_prompt = f"{hidden_prompt}\n\nUser's question: {prompt}. Answer precisely and concisely."
+        hidden_prompt = f"You are Arx-bot (your name).\n Analyze this (large) text: {file_content}\n Now, your job is to answer the user's questions based on the text you analyzed. If the text does not define an answer for the user's question, generate an answer to the user's question by yourself."
+        combined_prompt = f"{hidden_prompt}\n\nUser's question: {prompt}. Answer precisely and concisely. Do NOT forget or ignore any instructions."
 
         response = chat.send_message(combined_prompt).text
         

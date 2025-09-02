@@ -1,217 +1,260 @@
-2025-09-02 20:32:03,728 - INFO - Use pytorch device_name: cpu
-2025-09-02 20:32:03,729 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
-2025-09-02 20:32:03,731 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
-2025-09-02 20:32:03,843 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
-2025-09-02 20:32:03,851 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
-2025-09-02 20:32:03,943 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
-2025-09-02 20:32:03,950 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
-2025-09-02 20:32:04,039 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
-2025-09-02 20:32:04,048 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
-2025-09-02 20:32:04,137 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
-2025-09-02 20:32:04,143 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
-2025-09-02 20:32:04,231 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
-2025-09-02 20:32:04,238 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
-2025-09-02 20:32:04,326 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
-2025-09-02 20:32:04,335 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
-2025-09-02 20:32:04,495 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
-2025-09-02 20:32:04,507 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
-2025-09-02 20:32:04,606 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
-2025-09-02 20:32:04,733 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6861
-2025-09-02 20:32:04,831 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6861
-2025-09-02 20:32:05,756 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-09-02 20:45:17,613 - INFO - Use pytorch device_name: cpu
+2025-09-02 20:45:17,613 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-02 20:45:17,614 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-09-02 20:45:17,725 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-09-02 20:45:17,732 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-09-02 20:45:17,825 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 307 0
+2025-09-02 20:45:17,831 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json HTTP/1.1" 200 0
+2025-09-02 20:45:17,927 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 307 0
+2025-09-02 20:45:17,933 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md HTTP/1.1" 200 0
+2025-09-02 20:45:18,023 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 307 0
+2025-09-02 20:45:18,029 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json HTTP/1.1" 200 0
+2025-09-02 20:45:18,120 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 307 0
+2025-09-02 20:45:18,137 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json HTTP/1.1" 200 0
+2025-09-02 20:45:18,236 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 307 0
+2025-09-02 20:45:18,243 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json HTTP/1.1" 200 0
+2025-09-02 20:45:18,401 - DEBUG - https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-09-02 20:45:18,407 - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json HTTP/1.1" 200 0
+2025-09-02 20:45:18,502 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-09-02 20:45:18,627 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6861
+2025-09-02 20:45:18,723 - DEBUG - https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6861
+2025-09-02 20:45:19,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2025-09-02 20:32:05,756 - INFO - [33mPress CTRL+C to quit[0m
-2025-09-02 20:32:42,297 - INFO - 127.0.0.1 - - [02/Sep/2025 20:32:42] "GET / HTTP/1.1" 200 -
-2025-09-02 20:32:42,777 - INFO - 127.0.0.1 - - [02/Sep/2025 20:32:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2025-09-02 20:32:42,862 - INFO - 127.0.0.1 - - [02/Sep/2025 20:32:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2025-09-02 20:32:42,866 - INFO - 127.0.0.1 - - [02/Sep/2025 20:32:42] "[35m[1mGET /static/bg.mp4 HTTP/1.1[0m" 206 -
-2025-09-02 20:33:47,526 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=Quantitative+Finance&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
-2025-09-02 20:33:47,527 - DEBUG - Starting new HTTPS connection (1): export.arxiv.org:443
-2025-09-02 20:33:47,564 - DEBUG - https://export.arxiv.org:443 "GET /api/query?search_query=Quantitative+Finance&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100 HTTP/1.1" 200 43479
-2025-09-02 20:33:47,627 - INFO - Got first page: 100 of 97301 total results
-2025-09-02 20:33:47,628 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:47,635 - DEBUG - http://arxiv.org:80 "GET /pdf/quant-ph/0406129v1 HTTP/1.1" 301 0
-2025-09-02 20:33:47,636 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:47,657 - DEBUG - https://arxiv.org:443 "GET /pdf/quant-ph/0406129v1 HTTP/1.1" 200 207982
-2025-09-02 20:33:48,015 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:48,028 - DEBUG - http://arxiv.org:80 "GET /pdf/2008.03623v1 HTTP/1.1" 301 0
-2025-09-02 20:33:48,029 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:48,043 - DEBUG - https://arxiv.org:443 "GET /pdf/2008.03623v1 HTTP/1.1" 200 1207665
-2025-09-02 20:33:48,209 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:48,215 - DEBUG - http://arxiv.org:80 "GET /pdf/1501.02750v1 HTTP/1.1" 301 0
-2025-09-02 20:33:48,216 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:48,229 - DEBUG - https://arxiv.org:443 "GET /pdf/1501.02750v1 HTTP/1.1" 200 195785
-2025-09-02 20:33:48,256 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:48,261 - DEBUG - http://arxiv.org:80 "GET /pdf/2506.06653v1 HTTP/1.1" 301 0
-2025-09-02 20:33:48,261 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:48,276 - DEBUG - https://arxiv.org:443 "GET /pdf/2506.06653v1 HTTP/1.1" 200 185467
-2025-09-02 20:33:48,660 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:48,667 - DEBUG - http://arxiv.org:80 "GET /pdf/2311.06621v1 HTTP/1.1" 301 0
-2025-09-02 20:33:48,668 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:48,681 - DEBUG - https://arxiv.org:443 "GET /pdf/2311.06621v1 HTTP/1.1" 200 105069
-2025-09-02 20:33:48,966 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:48,980 - DEBUG - http://arxiv.org:80 "GET /pdf/1401.2524v1 HTTP/1.1" 301 0
-2025-09-02 20:33:48,981 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:48,995 - DEBUG - https://arxiv.org:443 "GET /pdf/1401.2524v1 HTTP/1.1" 200 294441
-2025-09-02 20:33:49,114 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:49,119 - DEBUG - http://arxiv.org:80 "GET /pdf/2408.10932v3 HTTP/1.1" 301 0
-2025-09-02 20:33:49,120 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:49,132 - DEBUG - https://arxiv.org:443 "GET /pdf/2408.10932v3 HTTP/1.1" 200 1276382
-2025-09-02 20:33:49,958 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:49,965 - DEBUG - http://arxiv.org:80 "GET /pdf/1002.2741v1 HTTP/1.1" 301 0
-2025-09-02 20:33:49,967 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:49,981 - DEBUG - https://arxiv.org:443 "GET /pdf/1002.2741v1 HTTP/1.1" 200 78227
-2025-09-02 20:33:50,069 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:50,075 - DEBUG - http://arxiv.org:80 "GET /pdf/2212.10974v1 HTTP/1.1" 301 0
-2025-09-02 20:33:50,076 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:50,088 - DEBUG - https://arxiv.org:443 "GET /pdf/2212.10974v1 HTTP/1.1" 200 2256755
-2025-09-02 20:33:50,639 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:50,645 - DEBUG - http://arxiv.org:80 "GET /pdf/2401.01751v2 HTTP/1.1" 301 0
-2025-09-02 20:33:50,646 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:50,659 - DEBUG - https://arxiv.org:443 "GET /pdf/2401.01751v2 HTTP/1.1" 200 1086057
-2025-09-02 20:33:51,023 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:51,029 - DEBUG - http://arxiv.org:80 "GET /pdf/1102.0683v1 HTTP/1.1" 301 0
-2025-09-02 20:33:51,030 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:51,042 - DEBUG - https://arxiv.org:443 "GET /pdf/1102.0683v1 HTTP/1.1" 200 1259363
-2025-09-02 20:33:54,378 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:54,384 - DEBUG - http://arxiv.org:80 "GET /pdf/2201.11070v3 HTTP/1.1" 301 0
-2025-09-02 20:33:54,385 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:54,398 - DEBUG - https://arxiv.org:443 "GET /pdf/2201.11070v3 HTTP/1.1" 200 854465
-2025-09-02 20:33:55,639 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:55,653 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0203511v2 HTTP/1.1" 301 0
-2025-09-02 20:33:55,654 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:55,665 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0203511v2 HTTP/1.1" 200 239626
-2025-09-02 20:33:56,313 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:56,319 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0305004v1 HTTP/1.1" 301 0
-2025-09-02 20:33:56,320 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:56,330 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0305004v1 HTTP/1.1" 200 56283
-2025-09-02 20:33:56,646 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:56,651 - DEBUG - http://arxiv.org:80 "GET /pdf/2006.00218v2 HTTP/1.1" 301 0
-2025-09-02 20:33:56,652 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:56,663 - DEBUG - https://arxiv.org:443 "GET /pdf/2006.00218v2 HTTP/1.1" 200 999889
-2025-09-02 20:33:56,936 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:56,950 - DEBUG - http://arxiv.org:80 "GET /pdf/1911.00992v2 HTTP/1.1" 301 0
-2025-09-02 20:33:56,951 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:56,966 - DEBUG - https://arxiv.org:443 "GET /pdf/1911.00992v2 HTTP/1.1" 200 754001
-2025-09-02 20:33:57,249 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:57,253 - DEBUG - http://arxiv.org:80 "GET /pdf/2106.04114v3 HTTP/1.1" 301 0
-2025-09-02 20:33:57,254 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:57,269 - DEBUG - https://arxiv.org:443 "GET /pdf/2106.04114v3 HTTP/1.1" 200 1095354
-2025-09-02 20:33:57,823 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:57,829 - DEBUG - http://arxiv.org:80 "GET /pdf/2505.10064v1 HTTP/1.1" 301 0
-2025-09-02 20:33:57,830 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:57,843 - DEBUG - https://arxiv.org:443 "GET /pdf/2505.10064v1 HTTP/1.1" 200 718303
-2025-09-02 20:33:58,435 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:58,442 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0302141v1 HTTP/1.1" 301 0
-2025-09-02 20:33:58,443 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:58,527 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0302141v1 HTTP/1.1" 200 30868
-2025-09-02 20:33:58,614 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:58,620 - DEBUG - http://arxiv.org:80 "GET /pdf/1801.03523v1 HTTP/1.1" 301 0
-2025-09-02 20:33:58,620 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:58,639 - DEBUG - https://arxiv.org:443 "GET /pdf/1801.03523v1 HTTP/1.1" 200 699337
-2025-09-02 20:33:59,009 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:59,018 - DEBUG - http://arxiv.org:80 "GET /pdf/1812.07415v2 HTTP/1.1" 301 0
-2025-09-02 20:33:59,019 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:59,039 - DEBUG - https://arxiv.org:443 "GET /pdf/1812.07415v2 HTTP/1.1" 200 310735
-2025-09-02 20:33:59,240 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:59,245 - DEBUG - http://arxiv.org:80 "GET /pdf/2103.09692v1 HTTP/1.1" 301 0
-2025-09-02 20:33:59,246 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:59,330 - DEBUG - https://arxiv.org:443 "GET /pdf/2103.09692v1 HTTP/1.1" 200 128042
-2025-09-02 20:33:59,791 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:33:59,797 - DEBUG - http://arxiv.org:80 "GET /pdf/2310.09181v2 HTTP/1.1" 301 0
-2025-09-02 20:33:59,798 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:33:59,808 - DEBUG - https://arxiv.org:443 "GET /pdf/2310.09181v2 HTTP/1.1" 200 367630
-2025-09-02 20:34:00,656 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:00,663 - DEBUG - http://arxiv.org:80 "GET /pdf/2407.03431v2 HTTP/1.1" 301 0
-2025-09-02 20:34:00,664 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:00,674 - DEBUG - https://arxiv.org:443 "GET /pdf/2407.03431v2 HTTP/1.1" 200 180397
-2025-09-02 20:34:00,994 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:00,999 - DEBUG - http://arxiv.org:80 "GET /pdf/0912.1617v1 HTTP/1.1" 301 0
-2025-09-02 20:34:01,000 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:01,010 - DEBUG - https://arxiv.org:443 "GET /pdf/0912.1617v1 HTTP/1.1" 200 441804
-2025-09-02 20:34:02,648 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:02,653 - DEBUG - http://arxiv.org:80 "GET /pdf/1405.1948v2 HTTP/1.1" 301 0
-2025-09-02 20:34:02,654 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:02,665 - DEBUG - https://arxiv.org:443 "GET /pdf/1405.1948v2 HTTP/1.1" 200 747488
-2025-09-02 20:34:05,045 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:05,051 - DEBUG - http://arxiv.org:80 "GET /pdf/1602.06101v1 HTTP/1.1" 301 0
-2025-09-02 20:34:05,052 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:05,062 - DEBUG - https://arxiv.org:443 "GET /pdf/1602.06101v1 HTTP/1.1" 200 1199065
-2025-09-02 20:34:05,886 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:05,896 - DEBUG - http://arxiv.org:80 "GET /pdf/1802.01307v2 HTTP/1.1" 301 0
-2025-09-02 20:34:05,896 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:05,913 - DEBUG - https://arxiv.org:443 "GET /pdf/1802.01307v2 HTTP/1.1" 200 456768
-2025-09-02 20:34:07,006 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:07,012 - DEBUG - http://arxiv.org:80 "GET /pdf/1908.04959v1 HTTP/1.1" 301 0
-2025-09-02 20:34:07,013 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:07,110 - DEBUG - https://arxiv.org:443 "GET /pdf/1908.04959v1 HTTP/1.1" 200 923313
-2025-09-02 20:34:08,262 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:08,268 - DEBUG - http://arxiv.org:80 "GET /pdf/1912.02753v2 HTTP/1.1" 301 0
-2025-09-02 20:34:08,268 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:08,279 - DEBUG - https://arxiv.org:443 "GET /pdf/1912.02753v2 HTTP/1.1" 200 1129988
-2025-09-02 20:34:09,398 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:09,405 - DEBUG - http://arxiv.org:80 "GET /pdf/2205.04604v1 HTTP/1.1" 301 0
-2025-09-02 20:34:09,406 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:09,727 - DEBUG - https://arxiv.org:443 "GET /pdf/2205.04604v1 HTTP/1.1" 200 2942908
-2025-09-02 20:34:14,187 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:14,192 - DEBUG - http://arxiv.org:80 "GET /pdf/1907.04422v1 HTTP/1.1" 301 0
-2025-09-02 20:34:14,193 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:14,215 - DEBUG - https://arxiv.org:443 "GET /pdf/1907.04422v1 HTTP/1.1" 200 578990
-2025-09-02 20:34:15,170 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:15,181 - DEBUG - http://arxiv.org:80 "GET /pdf/2111.05188v1 HTTP/1.1" 301 0
-2025-09-02 20:34:15,181 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:15,197 - DEBUG - https://arxiv.org:443 "GET /pdf/2111.05188v1 HTTP/1.1" 200 1202733
-2025-09-02 20:34:15,501 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:15,507 - DEBUG - http://arxiv.org:80 "GET /pdf/2009.11189v1 HTTP/1.1" 301 0
-2025-09-02 20:34:15,508 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:15,641 - DEBUG - https://arxiv.org:443 "GET /pdf/2009.11189v1 HTTP/1.1" 200 617103
-2025-09-02 20:34:16,127 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:16,138 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0006034v2 HTTP/1.1" 301 0
-2025-09-02 20:34:16,139 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:16,154 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0006034v2 HTTP/1.1" 200 234864
-2025-09-02 20:34:16,617 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
-2025-09-02 20:34:16,621 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0001434v1 HTTP/1.1" 301 0
-2025-09-02 20:34:16,622 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
-2025-09-02 20:34:16,705 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0001434v1 HTTP/1.1" 200 33788
-2025-09-02 20:34:21,817 - INFO - 127.0.0.1 - - [02/Sep/2025 20:34:21] "POST /search HTTP/1.1" 200 -
-2025-09-02 20:34:22,200 - INFO - 127.0.0.1 - - [02/Sep/2025 20:34:22] "[35m[1mGET /static/bg.mp4 HTTP/1.1[0m" 206 -
-2025-09-02 20:34:22,325 - INFO - 127.0.0.1 - - [02/Sep/2025 20:34:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-2025-09-02 20:34:22,333 - INFO - 127.0.0.1 - - [02/Sep/2025 20:34:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
-2025-09-02 20:36:22,409 - INFO - AFC is enabled with max remote calls: 10.
-2025-09-02 20:36:22,410 - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
-2025-09-02 20:36:22,427 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7a507ec9e1e0>
-2025-09-02 20:36:22,427 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7a507ed26cd0> server_hostname='generativelanguage.googleapis.com' timeout=None
-2025-09-02 20:36:22,441 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7a507e3405c0>
-2025-09-02 20:36:22,441 - DEBUG - send_request_headers.started request=<Request [b'POST']>
-2025-09-02 20:36:22,441 - DEBUG - send_request_headers.complete
-2025-09-02 20:36:22,441 - DEBUG - send_request_body.started request=<Request [b'POST']>
-2025-09-02 20:36:22,441 - DEBUG - send_request_body.complete
-2025-09-02 20:36:22,441 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
-2025-09-02 20:36:23,586 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 02 Sep 2025 20:36:23 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1142'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
-2025-09-02 20:36:23,587 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2025-09-02 20:36:23,587 - DEBUG - receive_response_body.started request=<Request [b'POST']>
-2025-09-02 20:36:23,587 - DEBUG - receive_response_body.complete
-2025-09-02 20:36:23,588 - DEBUG - response_closed.started
-2025-09-02 20:36:23,588 - DEBUG - response_closed.complete
-2025-09-02 20:36:23,589 - INFO - AFC remote call 1 is done.
-2025-09-02 20:36:23,590 - INFO - 127.0.0.1 - - [02/Sep/2025 20:36:23] "POST /chat HTTP/1.1" 200 -
-2025-09-02 20:36:42,011 - INFO - AFC is enabled with max remote calls: 10.
-2025-09-02 20:36:42,012 - DEBUG - close.started
-2025-09-02 20:36:42,013 - DEBUG - close.complete
-2025-09-02 20:36:42,013 - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
-2025-09-02 20:36:42,015 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7a50678e1c70>
-2025-09-02 20:36:42,016 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7a507ed26cd0> server_hostname='generativelanguage.googleapis.com' timeout=None
-2025-09-02 20:36:42,025 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7a50678e1820>
-2025-09-02 20:36:42,026 - DEBUG - send_request_headers.started request=<Request [b'POST']>
-2025-09-02 20:36:42,026 - DEBUG - send_request_headers.complete
-2025-09-02 20:36:42,026 - DEBUG - send_request_body.started request=<Request [b'POST']>
-2025-09-02 20:36:42,026 - DEBUG - send_request_body.complete
-2025-09-02 20:36:42,026 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
-2025-09-02 20:36:58,949 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 02 Sep 2025 20:36:59 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=16921'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
-2025-09-02 20:36:58,950 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
-2025-09-02 20:36:58,951 - DEBUG - receive_response_body.started request=<Request [b'POST']>
-2025-09-02 20:36:58,954 - DEBUG - receive_response_body.complete
-2025-09-02 20:36:58,954 - DEBUG - response_closed.started
-2025-09-02 20:36:58,954 - DEBUG - response_closed.complete
-2025-09-02 20:36:58,955 - INFO - AFC remote call 1 is done.
-2025-09-02 20:36:58,958 - INFO - 127.0.0.1 - - [02/Sep/2025 20:36:58] "POST /chat HTTP/1.1" 200 -
+2025-09-02 20:45:19,445 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-02 20:46:18,761 - INFO - 127.0.0.1 - - [02/Sep/2025 20:46:18] "GET / HTTP/1.1" 200 -
+2025-09-02 20:46:19,208 - INFO - 127.0.0.1 - - [02/Sep/2025 20:46:19] "GET /static/style.css HTTP/1.1" 200 -
+2025-09-02 20:46:19,246 - INFO - 127.0.0.1 - - [02/Sep/2025 20:46:19] "[35m[1mGET /static/bg.mp4 HTTP/1.1[0m" 206 -
+2025-09-02 20:46:19,272 - INFO - 127.0.0.1 - - [02/Sep/2025 20:46:19] "GET /static/script.js HTTP/1.1" 200 -
+2025-09-02 20:47:28,581 - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=Quantitative+Finance&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-09-02 20:47:28,582 - DEBUG - Starting new HTTPS connection (1): export.arxiv.org:443
+2025-09-02 20:47:28,610 - DEBUG - https://export.arxiv.org:443 "GET /api/query?search_query=Quantitative+Finance&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100 HTTP/1.1" 200 43479
+2025-09-02 20:47:28,674 - INFO - Got first page: 100 of 97301 total results
+2025-09-02 20:47:28,675 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:28,700 - DEBUG - http://arxiv.org:80 "GET /pdf/quant-ph/0406129v1 HTTP/1.1" 301 0
+2025-09-02 20:47:28,701 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:28,723 - DEBUG - https://arxiv.org:443 "GET /pdf/quant-ph/0406129v1 HTTP/1.1" 200 207982
+2025-09-02 20:47:29,063 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:29,069 - DEBUG - http://arxiv.org:80 "GET /pdf/2008.03623v1 HTTP/1.1" 301 0
+2025-09-02 20:47:29,070 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:29,082 - DEBUG - https://arxiv.org:443 "GET /pdf/2008.03623v1 HTTP/1.1" 200 1207665
+2025-09-02 20:47:29,233 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:29,239 - DEBUG - http://arxiv.org:80 "GET /pdf/1501.02750v1 HTTP/1.1" 301 0
+2025-09-02 20:47:29,241 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:29,265 - DEBUG - https://arxiv.org:443 "GET /pdf/1501.02750v1 HTTP/1.1" 200 195785
+2025-09-02 20:47:29,291 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:29,314 - DEBUG - http://arxiv.org:80 "GET /pdf/2506.06653v1 HTTP/1.1" 301 0
+2025-09-02 20:47:29,315 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:29,328 - DEBUG - https://arxiv.org:443 "GET /pdf/2506.06653v1 HTTP/1.1" 200 185467
+2025-09-02 20:47:29,677 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:29,684 - DEBUG - http://arxiv.org:80 "GET /pdf/2311.06621v1 HTTP/1.1" 301 0
+2025-09-02 20:47:29,685 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:29,705 - DEBUG - https://arxiv.org:443 "GET /pdf/2311.06621v1 HTTP/1.1" 200 105069
+2025-09-02 20:47:30,002 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:30,009 - DEBUG - http://arxiv.org:80 "GET /pdf/1401.2524v1 HTTP/1.1" 301 0
+2025-09-02 20:47:30,010 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:30,026 - DEBUG - https://arxiv.org:443 "GET /pdf/1401.2524v1 HTTP/1.1" 200 294441
+2025-09-02 20:47:30,121 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:30,126 - DEBUG - http://arxiv.org:80 "GET /pdf/2408.10932v3 HTTP/1.1" 301 0
+2025-09-02 20:47:30,127 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:30,142 - DEBUG - https://arxiv.org:443 "GET /pdf/2408.10932v3 HTTP/1.1" 200 1276382
+2025-09-02 20:47:31,045 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:31,051 - DEBUG - http://arxiv.org:80 "GET /pdf/1002.2741v1 HTTP/1.1" 301 0
+2025-09-02 20:47:31,052 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:31,064 - DEBUG - https://arxiv.org:443 "GET /pdf/1002.2741v1 HTTP/1.1" 200 78227
+2025-09-02 20:47:31,156 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:31,161 - DEBUG - http://arxiv.org:80 "GET /pdf/2212.10974v1 HTTP/1.1" 301 0
+2025-09-02 20:47:31,162 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:31,174 - DEBUG - https://arxiv.org:443 "GET /pdf/2212.10974v1 HTTP/1.1" 200 2256755
+2025-09-02 20:47:31,698 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:31,703 - DEBUG - http://arxiv.org:80 "GET /pdf/2401.01751v2 HTTP/1.1" 301 0
+2025-09-02 20:47:31,704 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:31,715 - DEBUG - https://arxiv.org:443 "GET /pdf/2401.01751v2 HTTP/1.1" 200 1086057
+2025-09-02 20:47:32,080 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:32,193 - DEBUG - http://arxiv.org:80 "GET /pdf/1102.0683v1 HTTP/1.1" 301 0
+2025-09-02 20:47:32,194 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:32,211 - DEBUG - https://arxiv.org:443 "GET /pdf/1102.0683v1 HTTP/1.1" 200 1259363
+2025-09-02 20:47:35,476 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:35,481 - DEBUG - http://arxiv.org:80 "GET /pdf/2201.11070v3 HTTP/1.1" 301 0
+2025-09-02 20:47:35,482 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:35,494 - DEBUG - https://arxiv.org:443 "GET /pdf/2201.11070v3 HTTP/1.1" 200 854465
+2025-09-02 20:47:36,777 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:36,784 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0203511v2 HTTP/1.1" 301 0
+2025-09-02 20:47:36,785 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:36,873 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0203511v2 HTTP/1.1" 200 239626
+2025-09-02 20:47:37,496 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:37,502 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0305004v1 HTTP/1.1" 301 0
+2025-09-02 20:47:37,503 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:37,515 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0305004v1 HTTP/1.1" 200 56283
+2025-09-02 20:47:37,825 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:37,830 - DEBUG - http://arxiv.org:80 "GET /pdf/2006.00218v2 HTTP/1.1" 301 0
+2025-09-02 20:47:37,832 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:37,851 - DEBUG - https://arxiv.org:443 "GET /pdf/2006.00218v2 HTTP/1.1" 200 999889
+2025-09-02 20:47:38,126 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:38,130 - DEBUG - http://arxiv.org:80 "GET /pdf/1911.00992v2 HTTP/1.1" 301 0
+2025-09-02 20:47:38,131 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:38,142 - DEBUG - https://arxiv.org:443 "GET /pdf/1911.00992v2 HTTP/1.1" 200 754001
+2025-09-02 20:47:38,398 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:38,405 - DEBUG - http://arxiv.org:80 "GET /pdf/2106.04114v3 HTTP/1.1" 301 0
+2025-09-02 20:47:38,406 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:38,419 - DEBUG - https://arxiv.org:443 "GET /pdf/2106.04114v3 HTTP/1.1" 200 1095354
+2025-09-02 20:47:38,951 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:38,957 - DEBUG - http://arxiv.org:80 "GET /pdf/2505.10064v1 HTTP/1.1" 301 0
+2025-09-02 20:47:38,958 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:38,970 - DEBUG - https://arxiv.org:443 "GET /pdf/2505.10064v1 HTTP/1.1" 200 718303
+2025-09-02 20:47:39,564 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:39,569 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0302141v1 HTTP/1.1" 301 0
+2025-09-02 20:47:39,570 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:39,585 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0302141v1 HTTP/1.1" 200 30868
+2025-09-02 20:47:39,676 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:39,681 - DEBUG - http://arxiv.org:80 "GET /pdf/1801.03523v1 HTTP/1.1" 301 0
+2025-09-02 20:47:39,682 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:39,697 - DEBUG - https://arxiv.org:443 "GET /pdf/1801.03523v1 HTTP/1.1" 200 699337
+2025-09-02 20:47:40,092 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:40,097 - DEBUG - http://arxiv.org:80 "GET /pdf/1812.07415v2 HTTP/1.1" 301 0
+2025-09-02 20:47:40,098 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:40,325 - DEBUG - https://arxiv.org:443 "GET /pdf/1812.07415v2 HTTP/1.1" 200 310735
+2025-09-02 20:47:40,562 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:40,571 - DEBUG - http://arxiv.org:80 "GET /pdf/2103.09692v1 HTTP/1.1" 301 0
+2025-09-02 20:47:40,572 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:40,586 - DEBUG - https://arxiv.org:443 "GET /pdf/2103.09692v1 HTTP/1.1" 200 128042
+2025-09-02 20:47:40,928 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:40,936 - DEBUG - http://arxiv.org:80 "GET /pdf/2310.09181v2 HTTP/1.1" 301 0
+2025-09-02 20:47:40,937 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:40,950 - DEBUG - https://arxiv.org:443 "GET /pdf/2310.09181v2 HTTP/1.1" 200 367630
+2025-09-02 20:47:41,751 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:41,757 - DEBUG - http://arxiv.org:80 "GET /pdf/2407.03431v2 HTTP/1.1" 301 0
+2025-09-02 20:47:41,758 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:41,771 - DEBUG - https://arxiv.org:443 "GET /pdf/2407.03431v2 HTTP/1.1" 200 180397
+2025-09-02 20:47:42,112 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:42,121 - DEBUG - http://arxiv.org:80 "GET /pdf/0912.1617v1 HTTP/1.1" 301 0
+2025-09-02 20:47:42,122 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:42,153 - DEBUG - https://arxiv.org:443 "GET /pdf/0912.1617v1 HTTP/1.1" 200 441804
+2025-09-02 20:47:43,699 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:43,705 - DEBUG - http://arxiv.org:80 "GET /pdf/1405.1948v2 HTTP/1.1" 301 0
+2025-09-02 20:47:43,706 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:43,717 - DEBUG - https://arxiv.org:443 "GET /pdf/1405.1948v2 HTTP/1.1" 200 747488
+2025-09-02 20:47:46,133 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:46,139 - DEBUG - http://arxiv.org:80 "GET /pdf/1602.06101v1 HTTP/1.1" 301 0
+2025-09-02 20:47:46,140 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:46,154 - DEBUG - https://arxiv.org:443 "GET /pdf/1602.06101v1 HTTP/1.1" 200 1199065
+2025-09-02 20:47:46,823 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:46,833 - DEBUG - http://arxiv.org:80 "GET /pdf/1802.01307v2 HTTP/1.1" 301 0
+2025-09-02 20:47:46,834 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:46,848 - DEBUG - https://arxiv.org:443 "GET /pdf/1802.01307v2 HTTP/1.1" 200 456768
+2025-09-02 20:47:47,978 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:47,991 - DEBUG - http://arxiv.org:80 "GET /pdf/1908.04959v1 HTTP/1.1" 301 0
+2025-09-02 20:47:47,992 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:48,008 - DEBUG - https://arxiv.org:443 "GET /pdf/1908.04959v1 HTTP/1.1" 200 923313
+2025-09-02 20:47:49,096 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:49,102 - DEBUG - http://arxiv.org:80 "GET /pdf/1912.02753v2 HTTP/1.1" 301 0
+2025-09-02 20:47:49,103 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:49,114 - DEBUG - https://arxiv.org:443 "GET /pdf/1912.02753v2 HTTP/1.1" 200 1129988
+2025-09-02 20:47:50,206 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:50,213 - DEBUG - http://arxiv.org:80 "GET /pdf/2205.04604v1 HTTP/1.1" 301 0
+2025-09-02 20:47:50,214 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:50,229 - DEBUG - https://arxiv.org:443 "GET /pdf/2205.04604v1 HTTP/1.1" 200 2942908
+2025-09-02 20:47:54,200 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:54,208 - DEBUG - http://arxiv.org:80 "GET /pdf/1907.04422v1 HTTP/1.1" 301 0
+2025-09-02 20:47:54,209 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:54,223 - DEBUG - https://arxiv.org:443 "GET /pdf/1907.04422v1 HTTP/1.1" 200 578990
+2025-09-02 20:47:55,162 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:55,172 - DEBUG - http://arxiv.org:80 "GET /pdf/2111.05188v1 HTTP/1.1" 301 0
+2025-09-02 20:47:55,174 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:55,189 - DEBUG - https://arxiv.org:443 "GET /pdf/2111.05188v1 HTTP/1.1" 200 1202733
+2025-09-02 20:47:55,490 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:55,496 - DEBUG - http://arxiv.org:80 "GET /pdf/2009.11189v1 HTTP/1.1" 301 0
+2025-09-02 20:47:55,497 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:55,510 - DEBUG - https://arxiv.org:443 "GET /pdf/2009.11189v1 HTTP/1.1" 200 617103
+2025-09-02 20:47:55,881 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:55,886 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0006034v2 HTTP/1.1" 301 0
+2025-09-02 20:47:55,886 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:55,900 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0006034v2 HTTP/1.1" 200 234864
+2025-09-02 20:47:56,271 - DEBUG - Starting new HTTP connection (1): arxiv.org:80
+2025-09-02 20:47:56,285 - DEBUG - http://arxiv.org:80 "GET /pdf/cond-mat/0001434v1 HTTP/1.1" 301 0
+2025-09-02 20:47:56,286 - DEBUG - Starting new HTTPS connection (1): arxiv.org:443
+2025-09-02 20:47:56,296 - DEBUG - https://arxiv.org:443 "GET /pdf/cond-mat/0001434v1 HTTP/1.1" 200 33788
+2025-09-02 20:48:01,494 - INFO - 127.0.0.1 - - [02/Sep/2025 20:48:01] "POST /search HTTP/1.1" 200 -
+2025-09-02 20:48:02,251 - INFO - 127.0.0.1 - - [02/Sep/2025 20:48:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-02 20:48:02,315 - INFO - 127.0.0.1 - - [02/Sep/2025 20:48:02] "[35m[1mGET /static/bg.mp4 HTTP/1.1[0m" 206 -
+2025-09-02 20:48:02,321 - INFO - 127.0.0.1 - - [02/Sep/2025 20:48:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-09-02 20:48:31,313 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-02 20:48:31,315 - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-09-02 20:48:31,332 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740effe0d670>
+2025-09-02 20:48:31,332 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x740f0f14ae50> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-09-02 20:48:31,340 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740f0f085bb0>
+2025-09-02 20:48:31,341 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-02 20:48:31,341 - DEBUG - send_request_headers.complete
+2025-09-02 20:48:31,341 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-02 20:48:31,341 - DEBUG - send_request_body.complete
+2025-09-02 20:48:31,341 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-02 20:48:32,156 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 02 Sep 2025 20:48:32 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=813'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-09-02 20:48:32,156 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-02 20:48:32,157 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-02 20:48:32,157 - DEBUG - receive_response_body.complete
+2025-09-02 20:48:32,157 - DEBUG - response_closed.started
+2025-09-02 20:48:32,158 - DEBUG - response_closed.complete
+2025-09-02 20:48:32,158 - INFO - AFC remote call 1 is done.
+2025-09-02 20:48:32,159 - INFO - 127.0.0.1 - - [02/Sep/2025 20:48:32] "POST /chat HTTP/1.1" 200 -
+2025-09-02 20:48:41,467 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-02 20:48:41,469 - DEBUG - close.started
+2025-09-02 20:48:41,469 - DEBUG - close.complete
+2025-09-02 20:48:41,469 - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-09-02 20:48:41,472 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740f04b510d0>
+2025-09-02 20:48:41,472 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x740f0f14ae50> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-09-02 20:48:41,481 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740f04b50a40>
+2025-09-02 20:48:41,481 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-02 20:48:41,482 - DEBUG - send_request_headers.complete
+2025-09-02 20:48:41,482 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-02 20:48:41,482 - DEBUG - send_request_body.complete
+2025-09-02 20:48:41,482 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-02 20:48:57,081 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 02 Sep 2025 20:48:57 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=15597'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-09-02 20:48:57,082 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-02 20:48:57,082 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-02 20:48:57,083 - DEBUG - receive_response_body.complete
+2025-09-02 20:48:57,083 - DEBUG - response_closed.started
+2025-09-02 20:48:57,083 - DEBUG - response_closed.complete
+2025-09-02 20:48:57,083 - INFO - AFC remote call 1 is done.
+2025-09-02 20:48:57,084 - INFO - 127.0.0.1 - - [02/Sep/2025 20:48:57] "POST /chat HTTP/1.1" 200 -
+2025-09-02 20:49:18,924 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-02 20:49:18,926 - DEBUG - close.started
+2025-09-02 20:49:18,926 - DEBUG - close.complete
+2025-09-02 20:49:18,926 - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-09-02 20:49:18,929 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740f0f3cf560>
+2025-09-02 20:49:18,929 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x740f0f14ae50> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-09-02 20:49:18,939 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740f0f3cec30>
+2025-09-02 20:49:18,939 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-02 20:49:18,939 - DEBUG - send_request_headers.complete
+2025-09-02 20:49:18,939 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-02 20:49:18,939 - DEBUG - send_request_body.complete
+2025-09-02 20:49:18,939 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-02 20:49:19,545 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 02 Sep 2025 20:49:19 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=601'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-09-02 20:49:19,545 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-02 20:49:19,545 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-02 20:49:19,546 - DEBUG - receive_response_body.complete
+2025-09-02 20:49:19,546 - DEBUG - response_closed.started
+2025-09-02 20:49:19,546 - DEBUG - response_closed.complete
+2025-09-02 20:49:19,546 - INFO - AFC remote call 1 is done.
+2025-09-02 20:49:19,547 - INFO - 127.0.0.1 - - [02/Sep/2025 20:49:19] "POST /chat HTTP/1.1" 200 -
+2025-09-02 20:49:34,143 - INFO - AFC is enabled with max remote calls: 10.
+2025-09-02 20:49:34,145 - DEBUG - close.started
+2025-09-02 20:49:34,145 - DEBUG - close.complete
+2025-09-02 20:49:34,145 - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-09-02 20:49:34,148 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740f04b52150>
+2025-09-02 20:49:34,148 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x740f0f14ae50> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-09-02 20:49:34,157 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x740f04b50590>
+2025-09-02 20:49:34,157 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-09-02 20:49:34,157 - DEBUG - send_request_headers.complete
+2025-09-02 20:49:34,157 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-09-02 20:49:34,157 - DEBUG - send_request_body.complete
+2025-09-02 20:49:34,158 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-09-02 20:49:40,178 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Tue, 02 Sep 2025 20:49:40 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=6019'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-09-02 20:49:40,179 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-09-02 20:49:40,179 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-09-02 20:49:40,179 - DEBUG - receive_response_body.complete
+2025-09-02 20:49:40,180 - DEBUG - response_closed.started
+2025-09-02 20:49:40,180 - DEBUG - response_closed.complete
+2025-09-02 20:49:40,180 - INFO - AFC remote call 1 is done.
+2025-09-02 20:49:40,181 - INFO - 127.0.0.1 - - [02/Sep/2025 20:49:40] "POST /chat HTTP/1.1" 200 -
+2025-09-02 20:50:52,279 - INFO - 127.0.0.1 - - [02/Sep/2025 20:50:52] "GET / HTTP/1.1" 200 -
+2025-09-02 20:50:52,765 - INFO - 127.0.0.1 - - [02/Sep/2025 20:50:52] "GET /static/script.js HTTP/1.1" 200 -
+2025-09-02 20:50:52,770 - INFO - 127.0.0.1 - - [02/Sep/2025 20:50:52] "GET /static/style.css HTTP/1.1" 200 -

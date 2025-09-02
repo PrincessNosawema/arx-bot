@@ -88,18 +88,6 @@ and popular publications. In the context of quantitative finance, we provide
 here an overview of its potential.
 
 Document 7
-Title: The Quantitative Finance Aspects of Automated Market Markers in DeFi
-Authors: Stefan Loesch
-Abstract: Automated Market Makers (AMMs) are a class of smart contracts on Ethereum and
-other blockchains that "make markets" autonomously. In other words, AMMs stand
-ready to trade with other market participants that interact with them, at the
-conditions determined by the AMM. In this this paper, which relies on the
-existing and growing corpus of literature available, we review and present the
-key mathematical and quantitative finance aspects that underpin their
-operations, including the interesting relationship between AMMs and derivatives
-pricing and hedging.
-
-Document 8
 Title: FinRL-Podracer: High Performance and Scalable Deep Reinforcement Learning for Quantitative Finance
 Authors: Zechu Li, Xiao-Yang Liu, Jiahao Zheng, Zhaoran Wang, Anwar Walid, Jian Guo
 Abstract: Machine learning techniques are playing more and more important roles in
@@ -127,6 +115,18 @@ improvements in annual return, 0.1 \sim 0.6 improvements in Sharpe ratio and 3
 times \sim 7 times speed-up in training time. We show the high scalability by
 training a trading agent in 10 minutes with $80$ A100 GPUs, on NASDAQ-100
 constituent stocks with minute-level data over 10 years.
+
+Document 8
+Title: The Quantitative Finance Aspects of Automated Market Markers in DeFi
+Authors: Stefan Loesch
+Abstract: Automated Market Makers (AMMs) are a class of smart contracts on Ethereum and
+other blockchains that "make markets" autonomously. In other words, AMMs stand
+ready to trade with other market participants that interact with them, at the
+conditions determined by the AMM. In this this paper, which relies on the
+existing and growing corpus of literature available, we review and present the
+key mathematical and quantitative finance aspects that underpin their
+operations, including the interesting relationship between AMMs and derivatives
+pricing and hedging.
 
 Document 9
 Title: A Quantum algorithm for linear PDEs arising in Finance
@@ -160,16 +160,10 @@ per se. We also derive results for optimality and indifference pricing
 conditions. We also explore particular examples inside our setup.
 
 Document 12
-Title: Deep Stochastic Optimization in Finance
-Authors: A. Max Reppen, H. Mete Soner, Valentin Tissot-Daguette
-Abstract: This paper outlines, and through stylized examples evaluates a novel and
-highly effective computational technique in quantitative finance. Empirical
-Risk Minimization (ERM) and neural networks are key to this approach. Powerful
-open source optimization libraries allow for efficient implementations of this
-algorithm making it viable in high-dimensional structures. The free-boundary
-problems related to American and Bermudan options showcase both the power and
-the potential difficulties that specific applications may face. The impact of
-the size of the training data is studied in a simplified Merton type problem.
-The classical option hedging problem exemplifies the need of market generators
-or large number of simulations.
+Title: Quantum Game Theory in Finance
+Authors: Edward W. Piotrowski, J. Sladkowski
+Abstract: This is a short review of the background and recent development in quantum
+game theory and its possible application in economics and finance. The
+intersection of science and society is also discussed. The review is addressed
+to non--specialists.
 
